@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Самоанализ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="p-6"><a href="index.html" class="text-indigo-600 hover:underline">← Вернуться на главную</a></nav>
+    <main class="max-w-4xl mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-8">Определение склонностей</h1>
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-indigo-500">
+                <h2 class="text-xl font-bold">Proforientator.ru</h2>
+                <p class="mt-2 text-slate-600">Научные тесты на профориентацию для подростков.</p>
+                <p class="mt-2 italic text-indigo-700 font-medium text-sm">Моя рекомендация: Пройдите расширенный тест на тип личности, он очень точный.</p>
+                <a href="https://proforientator.ru" class="inline-block mt-4 text-indigo-600 font-bold">Пройти тест →</a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-indigo-500">
+                <h2 class="text-xl font-bold">Smartia</h2>
+                <p class="mt-2 text-slate-600">Удобный сервис с игровыми механиками выбора профессии.</p>
+                <p class="mt-2 italic text-indigo-700 font-medium text-sm">Моя рекомендация: Изучите их «карту навыков», она наглядно показывает ваши пробелы.</p>
+                <a href="https://smartia.me" class="inline-block mt-4 text-indigo-600 font-bold">Открыть сайт →</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
