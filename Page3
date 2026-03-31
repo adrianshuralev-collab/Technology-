@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Востребованность</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="p-6"><a href="index.html" class="text-indigo-600 hover:underline">← Вернуться на главную</a></nav>
+    <main class="max-w-4xl mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-8">Рынок вакансий</h1>
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-emerald-500">
+                <h2 class="text-xl font-bold">HeadHunter (hh.ru)</h2>
+                <p class="mt-2 text-slate-600">Самая большая база вакансий в России и СНГ.</p>
+                <p class="mt-2 italic text-emerald-700 font-medium text-sm">Моя рекомендация: Используйте фильтр по городам, чтобы увидеть реальный спрос в вашем регионе.</p>
+                <a href="https://hh.ru" class="inline-block mt-4 text-emerald-600 font-bold">Искать работу →</a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-emerald-500">
+                <h2 class="text-xl font-bold">Habr Career</h2>
+                <p class="mt-2 text-slate-600">Специализированный ресурс для IT-кадров.</p>
+                <p class="mt-2 italic text-emerald-700 font-medium text-sm">Моя рекомендация: Смотрите раздел «Компании», чтобы найти топовых работодателей.</p>
+                <a href="https://career.habr.com" class="inline-block mt-4 text-emerald-600 font-bold">Смотреть IT-вакансии →</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
