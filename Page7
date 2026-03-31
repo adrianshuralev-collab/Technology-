@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Наша Гимназия</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen">
+    <nav class="p-6"><a href="index.html" class="text-indigo-400 hover:underline">← Вернуться на главную</a></nav>
+    <main class="max-w-4xl mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-8 text-white">Возможности Гимназии Сколково</h1>
+        <p class="mb-8 text-slate-400">Навыки будущего можно начать тренировать уже сейчас, не выходя из нашей школы.</p>
+        
+        <div class="grid gap-6">
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                <h2 class="text-2xl font-bold text-indigo-400 mb-2">IT-студия и Программирование</h2>
+                <p>Курсы по Python и Web-разработке помогут тебе создавать такие же проекты и автоматизировать задачи.</p>
+                <p class="mt-4 italic text-slate-400">Поможет в: IT, Инженерии, Аналитике данных.</p>
+            </div>
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700">
+                <h2 class="text-2xl font-bold text-indigo-400 mb-2">Предпринимательский клуб</h2>
+                <p>Здесь учат основам бизнеса, питчингу и созданию стартапов с нуля.</p>
+                <p class="mt-4 italic text-slate-400">Поможет в: Управлении, Маркетинге, Собственном бизнесе.</p>
+            </div>
+            <div class="bg-slate-800 p-8 rounded-2xl border border-slate-700 text-center">
+                <a href="https://sk.gymnasiya.ru" class="inline-block bg-indigo-600 text-white px-8 py-3 rounded-full font-bold hover:bg-indigo-500 transition">Официальный сайт Гимназии</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
