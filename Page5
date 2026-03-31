@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Требования</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="p-6"><a href="index.html" class="text-indigo-600 hover:underline">← Вернуться на главную</a></nav>
+    <main class="max-w-4xl mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-8">Навыки и компетенции</h1>
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-purple-500">
+                <h2 class="text-xl font-bold">Атлас новых профессий</h2>
+                <p class="mt-2 text-slate-600">Альманах отраслей будущего и того, что нужно уметь через 10 лет.</p>
+                <p class="mt-2 italic text-purple-700 font-medium text-sm">Моя рекомендация: Ищите разделы «Надпрофессиональные навыки».</p>
+                <a href="https://atlas100.ru" class="inline-block mt-4 text-purple-600 font-bold">Изучить атлас →</a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-purple-500">
+                <h2 class="text-xl font-bold">Skillbox (Медиа)</h2>
+                <p class="mt-2 text-slate-600">Статьи-гайды по профессиям: из чего состоит рабочий день.</p>
+                <p class="mt-2 italic text-purple-700 font-medium text-sm">Моя рекомендация: Читайте интервью с реальными специалистами.</p>
+                <a href="https://skillbox.ru/media/" class="inline-block mt-4 text-purple-600 font-bold">Читать статьи →</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
