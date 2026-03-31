@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Образование</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="p-6"><a href="index.html" class="text-indigo-600 hover:underline">← Вернуться на главную</a></nav>
+    <main class="max-w-4xl mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-8">Где получить образование</h1>
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-orange-500">
+                <h2 class="text-xl font-bold">Поступи Онлайн</h2>
+                <p class="mt-2 text-slate-600">Сервис подбора вузов по баллам ЕГЭ и интересам.</p>
+                <p class="mt-2 italic text-orange-700 font-medium text-sm">Моя рекомендация: Попробуйте калькулятор ЕГЭ — это отрезвляет и мотивирует.</p>
+                <a href="https://postupi.online" class="inline-block mt-4 text-orange-600 font-bold">Найти вуз →</a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-orange-500">
+                <h2 class="text-xl font-bold">Stepik</h2>
+                <p class="mt-2 text-slate-600">Платформа с отличными бесплатными курсами по программированию и науке.</p>
+                <p class="mt-2 italic text-orange-700 font-medium text-sm">Моя рекомендация: Начните с основ Python, это пригодится везде.</p>
+                <a href="https://stepik.org" class="inline-block mt-4 text-orange-600 font-bold">Начать учиться →</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
