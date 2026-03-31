@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заработок</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 min-h-screen">
+    <nav class="p-6"><a href="index.html" class="text-indigo-600 hover:underline">← Вернуться на главную</a></nav>
+    <main class="max-w-4xl mx-auto p-6">
+        <h1 class="text-4xl font-bold mb-8">Анализ зарплат</h1>
+        <div class="space-y-6">
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-yellow-500">
+                <h2 class="text-xl font-bold">Zarplata.ru</h2>
+                <p class="mt-2 text-slate-600">Агрегатор данных о доходах в разных секторах экономики.</p>
+                <p class="mt-2 italic text-yellow-700 font-medium text-sm">Моя рекомендация: Обращайте внимание на «среднюю» и «медианную» зарплату — они отличаются.</p>
+                <a href="https://zarplata.ru" class="inline-block mt-4 text-yellow-600 font-bold">Узнать цифры →</a>
+            </div>
+            <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-yellow-500">
+                <h2 class="text-xl font-bold">ГородРабот.ру</h2>
+                <p class="mt-2 text-slate-600">Удобные графики изменения зарплат по месяцам.</p>
+                <p class="mt-2 italic text-yellow-700 font-medium text-sm">Моя рекомендация: Посмотрите динамику за год, чтобы понять, растет ли отрасль.</p>
+                <a href="https://gorodrabot.ru" class="inline-block mt-4 text-yellow-600 font-bold">Смотреть графики →</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
