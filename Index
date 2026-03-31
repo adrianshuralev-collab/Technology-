@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навигатор Карьеры</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+    <header class="bg-indigo-700 text-white p-12 text-center shadow-xl">
+        <h1 class="text-5xl font-extrabold tracking-tight">Твой Путь в Будущее</h1>
+        <p class="mt-4 text-xl text-indigo-100 max-w-2xl mx-auto">Единый ресурс для тех, кто хочет превратить мечту о профессии в четкий план действий.</p>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-8">
+        <div class="bg-white p-8 rounded-2xl shadow-sm mb-12 border border-slate-100">
+            <h2 class="text-3xl font-bold mb-4 text-indigo-800">О проекте</h2>
+            <p class="text-lg text-slate-600 leading-relaxed">
+                Этот веб-ресурс — твой персональный гид по рынку труда. Мы структурировали информацию так, чтобы ты прошел путь от самопознания до выбора конкретных курсов в нашей Гимназии. Каждая страница содержит проверенные ссылки и мои личные рекомендации.
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <a href="page2.html" class="group p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all border border-slate-100">
+                <div class="text-indigo-600 font-bold text-lg mb-2">01. Самоанализ</div>
+                <h3 class="text-xl font-bold mb-3 group-hover:text-indigo-600 transition">Кто я по профессии?</h3>
+                <p class="text-slate-500 text-sm">Психологические тесты и определение ваших сильных сторон.</p>
+            </a>
+            <a href="page3.html" class="group p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all border border-slate-100">
+                <div class="text-indigo-600 font-bold text-lg mb-2">02. Востребованность</div>
+                <h3 class="text-xl font-bold mb-3 group-hover:text-indigo-600 transition">Нужны ли эти люди?</h3>
+                <p class="text-slate-500 text-sm">Анализ вакансий и обзор самых востребованных специальностей.</p>
+            </a>
+            <a href="page4.html" class="group p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all border border-slate-100">
+                <div class="text-indigo-600 font-bold text-lg mb-2">03. Доходы</div>
+                <h3 class="text-xl font-bold mb-3 group-hover:text-indigo-600 transition">Сколько я заработаю?</h3>
+                <p class="text-slate-500 text-sm">Где платят больше и как меняется зарплата с ростом опыта.</p>
+            </a>
+            <a href="page5.html" class="group p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all border border-slate-100">
+                <div class="text-indigo-600 font-bold text-lg mb-2">04. Требования</div>
+                <h3 class="text-xl font-bold mb-3 group-hover:text-indigo-600 transition">Что я должен уметь?</h3>
+                <p class="text-slate-500 text-sm">Описание навыков, Hard и Soft skills для успешной карьеры.</p>
+            </a>
+            <a href="page6.html" class="group p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all border border-slate-100">
+                <div class="text-indigo-600 font-bold text-lg mb-2">05. Образование</div>
+                <h3 class="text-xl font-bold mb-3 group-hover:text-indigo-600 transition">Где получить диплом?</h3>
+                <p class="text-slate-500 text-sm">Лучшие вузы, колледжи и онлайн-университеты страны.</p>
+            </a>
+            <a href="page7.html" class="group p-8 bg-white rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all border border-slate-100">
+                <div class="text-indigo-600 font-bold text-lg mb-2">06. Гимназия</div>
+                <h3 class="text-xl font-bold mb-3 group-hover:text-indigo-600 transition">Начни прямо сейчас</h3>
+                <p class="text-slate-500 text-sm">Курсы доп. образования в Гимназии Сколково.</p>
+            </a>
+        </div>
+    </main>
+
+    <footer class="mt-20 p-10 bg-slate-900 text-slate-400 text-center">
+        <p>© 2026 Проект «Навигатор» | Разработано в Гимназии Сколково</p>
+    </footer>
+</body>
+</html>
